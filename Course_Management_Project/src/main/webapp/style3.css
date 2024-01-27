@@ -1,0 +1,194 @@
+.box {
+  overflow: hidden;
+  height: 300px;
+  background-color: #f1f3f5;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.upper_section {
+  background-color: #868e96;
+  height: 35%;
+  text-decoration: none;
+  color: white;
+
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex_inside_upper_section1,
+.flex_inside_upper_section2 {
+  max-width: 200px;
+  flex-shrink: 1;
+}
+.flex_inside_upper_section2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.middle_section {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: green;
+  top: 50px;
+  right: 15px;
+  overflow: hidden;
+  filter: grayscale(0.5);
+}
+
+.lower_section {
+  text-align: center;
+  margin-top: 139px;
+  font-size: 24px;
+}
+
+.img {
+  width: 100%;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.grid .box:nth-child(1) .upper_section,
+.grid .box:nth-child(1) .lower_section form .btnn {
+  background-color: #fa5252;
+}
+.grid .box:nth-child(2) .upper_section,
+.grid .box:nth-child(2) .lower_section form .btnn {
+  background-color: #e64980;
+}
+.grid .box:nth-child(3) .upper_section,
+.grid .box:nth-child(3) .lower_section form .btnn {
+  background-color: #be4bdb;
+}
+.grid .box:nth-child(4) .upper_section,
+.grid .box:nth-child(4) .lower_section form .btnn {
+  background-color: #7950f2;
+}
+.grid .box:nth-child(5) .upper_section,
+.grid .box:nth-child(5) .lower_section form .btnn {
+  background-color: #4c6ef5;
+}
+.grid .box:nth-child(6) .upper_section,
+.grid .box:nth-child(6) .lower_section form .btnn {
+  background-color: #228be6;
+}
+.grid .box:nth-child(7) .upper_section,
+.grid .box:nth-child(7) .lower_section form .btnn {
+  background-color: #15aabf;
+}
+.grid .box:nth-child(8) .upper_section,
+.grid .box:nth-child(8) .lower_section form .btnn {
+  background-color: #12b886;
+}
+.grid .box:nth-child(9) .upper_section,
+.grid .box:nth-child(9) .lower_section form .btnn {
+  background-color: #40c057;
+}
+.grid .box:nth-child(10) .upper_section,
+.grid .box:nth-child(10) .lower_section form .btnn {
+  background-color: #fa5252;
+}
+.grid .box:nth-child(11) .upper_section,
+.grid .box:nth-child(11) .lower_section form .btnn {
+  background-color: #e64980;
+}
+.grid .box:nth-child(12) .upper_section,
+.grid .box:nth-child(12) .lower_section form .btnn {
+  background-color: #be4bdb;
+}
+.grid .box:nth-child(13) .upper_section,
+.grid .box:nth-child(13) .lower_section form .btnn {
+  background-color: #7950f2;
+}
+.grid .box:nth-child(14) .upper_section,
+.grid .box:nth-child(14) .lower_section form .btnn {
+  background-color: #4c6ef5;
+}
+.grid .box:nth-child(15) .upper_section,
+.grid .box:nth-child(15) .lower_section form .btnn {
+  background-color: #228be6;
+}
+.grid .box:nth-child(16) .upper_section,
+.grid .box:nth-child(16) .lower_section form .btnn {
+  background-color: #15aabf;
+}
+.grid .box:nth-child(17) .upper_section,
+.grid .box:nth-child(17) .lower_section form .btnn {
+  background-color: #12b886;
+}
+.grid .box:nth-child(18) .upper_section,
+.grid .box:nth-child(18) .lower_section form .btnn {
+  background-color: #40c057;
+}
+
+.grid .box:nth-child(1) .lower_section form .btnn:hover {
+  background-color: #f03e3e;
+}
+.grid .box:nth-child(2) .lower_section form .btnn:hover {
+  background-color: #d6336c;
+}
+.grid .box:nth-child(3) .lower_section form .btnn:hover {
+  background-color: #ae3ec9;
+}
+.grid .box:nth-child(4) .lower_section form .btnn:hover {
+  background-color: #7048e8;
+}
+.grid .box:nth-child(5) .lower_section form .btnn:hover {
+  background-color: #4263eb;
+}
+.grid .box:nth-child(6) .lower_section form .btnn:hover {
+  background-color: #1c7ed6;
+}
+.grid .box:nth-child(7) .lower_section form .btnn:hover {
+  background-color: #1098ad;
+}
+.grid .box:nth-child(8) .lower_section form .btnn:hover {
+  background-color: #0ca678;
+}
+.grid .box:nth-child(9) .lower_section form .btnn:hover {
+  background-color: #37b24d;
+}
+
+.grid .box:nth-child(10) .lower_section form .btnn:hover {
+  background-color: #f03e3e;
+}
+
+.grid .box:nth-child(11) .lower_section form .btnn:hover {
+  background-color: #d6336c;
+}
+
+.grid .box:nth-child(12) .lower_section form .btnn:hover {
+  background-color: #ae3ec9;
+}
+
+.grid .box:nth-child(13) .lower_section form .btnn:hover {
+  background-color: #7048e8;
+}
+
+.grid .box:nth-child(14) .lower_section form .btnn:hover {
+  background-color: #4263eb;
+}
+
+.grid .box:nth-child(15) .lower_section form .btnn:hover {
+  background-color: #1c7ed6;
+}
+
+.grid .box:nth-child(16) .lower_section form .btnn:hover {
+  background-color: #1098ad;
+}
+
+.grid .box:nth-child(17) .lower_section form .btnn:hover {
+  background-color: #0ca678;
+}
+
+.grid .box:nth-child(18) .lower_section form .btnn:hover {
+  background-color: #37b24d;
+}
+
